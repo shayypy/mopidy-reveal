@@ -1,0 +1,9 @@
+_commit: v2.5.0
+_src_path: gh:mopidy/mopidy-ext-template
+author_email: 43248357+shayypy@users.noreply.github.com
+author_full_name: Shay
+dist_name: mopidy-reveal
+ext_name: reveal
+github_username: shayypy
+short_description: Mopidy extension to reveal some inner Mopidy functions via HTTP
+    to third-party applications
