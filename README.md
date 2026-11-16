@@ -34,9 +34,9 @@ backend.playback.translate_uri.enabled = true
 - `token`: optionally secure the endpoint per-method by requiring a token (any random string can be used). Provide in an authorization header as `Bearer <token>`.
 - `backend.playback.translate_uri.enabled`: enable this method
 
-### `POST /reveal`
+### `POST /reveal/rpc`
 
-This is the only endpoint exposed by the extension. It is designed to resemble Mopidy's JSON-RPC endpoint (& websocket), but I don't think it's fully compliant with the spec since it does not handle batch requests.
+This is the only endpoint exposed by the extension, available on Mopidy's HTTP port (e.g. `http://localhost:6680/reveal/rpc`). It is designed to resemble Mopidy's JSON-RPC endpoint (& websocket), but I don't think it's fully compliant with the spec since it does not handle batch requests.
 
 Methods below:
 
